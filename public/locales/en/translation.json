@@ -1,0 +1,293 @@
+{
+  "pages": {
+    "notFound": {
+      "title": "Not Found",
+      "404": "404",
+      "links": {
+        "home": "Home"
+      }
+    },
+    "offline": {
+      "title": "You are offline",
+      "message": "It seems there is a problem with your connection. Please check your network status",
+      "components": {
+        "buttons": {
+          "refresh": {
+            "label": "Refresh"
+          }
+        }
+      }
+    },
+    "register": {
+      "title": "Register",
+      "alreadyHaveAccount": "Already have an account?",
+      "links": {
+        "signIn": "Sign In"
+      }
+    },
+    "signIn": {
+      "title": "Sign In",
+      "links": {
+        "forgottenPassword": "Forgotten Password?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgotten Password",
+      "links": {
+        "signIn": "Sign In"
+      }
+    },
+    "home": {
+      "title": "Home",
+      "welcome": {
+        "greeting": "Welcome",
+        "message": "What would you like to cook today?"
+      }
+    },
+    "changePassword": {
+      "title": "Change Password"
+    },
+    "resetPassword": {
+      "title": "Reset Your Password"
+    }
+  },
+  "dialogs": {
+    "deleteRecipe": {
+      "title": "Delete Recipe",
+      "description": "Are you sure you want to delete this recipe? Once deleted it cannot be recovered."
+    },
+    "deleteRecipeImage": {
+      "title": "Delete Image",
+      "description": "Are you sure you want to remove this image?"
+    },
+    "publishRecipe": {
+      "title": "Publish Recipe",
+      "description": "Are you sure you want to publish this recipe? Once published this recipe will be visible to all users and it cannot then be deleted."
+    }
+  },
+  "forms": {
+    "auth": {
+      "register": {
+        "title": "Create an account",
+        "inputs": {
+          "accountNumber": {
+            "label": "Account Number",
+            "validationMessages": {
+              "empty": "Account Number is required"
+            }
+          },
+          "employeeNumber": {
+            "label": "Employee Number",
+            "validationMessages": {
+              "empty": "Employee Number is required"
+            }
+          },
+          "password": {
+            "label": "Password",
+            "validationMessages": {
+              "empty": "Password is required"
+            }
+          },
+          "confirmPassword": {
+            "label": "Confirm Password",
+            "validationMessages": {
+              "empty": "Please confirm your password",
+              "notSame": "Passwords do not match"
+            }
+          }
+        },
+        "buttons": {
+          "submit": {
+            "label": "Sign Up"
+          }
+        }
+      },
+      "signIn": {
+        "inputs": {
+          "accountNumber": {
+            "label": "Account Number",
+            "validationMessages": {
+              "empty": "Account Number is required"
+            }
+          },
+          "employeeNumber": {
+            "label": "Employee Number",
+            "validationMessages": {
+              "empty": "Employee Number is required"
+            }
+          },
+          "password": {
+            "label": "Password",
+            "validationMessages": {
+              "empty": "Password is required"
+            }
+          },
+          "rememberMe": {
+            "label": "Remember Me"
+          }
+        },
+        "buttons": {
+          "submit": {
+            "label": "Login"
+          }
+        }
+      },
+      "forgotPassword": {
+        "inputs": {
+          "accountNumber": {
+            "label": "Account Number",
+            "validationMessages": {
+              "empty": "Account Number is required"
+            }
+          },
+          "employeeNumber": {
+            "label": "Employee Number",
+            "validationMessages": {
+              "empty": "Employee Number is required"
+            }
+          }
+        },
+        "buttons": {
+          "submit": {
+            "label": "Reset Password"
+          }
+        }
+      },
+      "changePassword": {
+        "title": "Change Password",
+        "inputs": {
+          "currentPassword": {
+            "label": "Current Password",
+            "validationMessages": {
+              "empty": "Current Password is required"
+            }
+          },
+          "newPassword": {
+            "label": "New Password",
+            "validationMessages": {
+              "empty": "New Password is required",
+              "sameAsCurrent": "New Password must be different from current password."
+            }
+          },
+          "confirmPassword": {
+            "label": "Confirm Password",
+            "validationMessages": {
+              "empty": "Please confirm your password",
+              "notSame": "Passwords do not match"
+            }
+          }
+        },
+        "buttons": {
+          "submit": {
+            "label": "Change Password"
+          }
+        }
+      },
+      "resetPassword": {
+        "title": "Create New Password",
+        "inputs": {
+          "newPassword": {
+            "label": "New Password",
+            "validationMessages": {
+              "empty": "New Password is required"
+            }
+          },
+          "confirmPassword": {
+            "label": "Confirm Password",
+            "validationMessages": {
+              "empty": "Please confirm your password",
+              "notSame": "Passwords do not match"
+            }
+          }
+        },
+        "buttons": {
+          "submit": {
+            "label": "Reset Password"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+  },
+  "requests": {
+    "auth": {
+      "register": {
+        "success": "Account Created.",
+        "error": "Unable to register account. Please try again later."
+      },
+      "signIn": {
+        "success": "Signed In Successfully.",
+        "invalid": "Invalid login. Please check your credentials.",
+        "error": "Unable to sign in. Please try again later."
+      },
+      "forgottenPassword": {
+        "success": "A reset link has been sent to your email address.",
+        "error": "Unable to send recovery email. Please try again later."
+      },
+      "changePassword": {
+        "success": "Your password has been changed.",
+        "invalid": "Please check your credentials.",
+        "error": "Unable to change password. Please try again later."
+      },
+      "resetPassword": {
+        "success": "Your password has been changed.",
+        "error": "Unable to change password. Please try again later."
+      },
+      "logout": {
+        "success": "You have been logged out",
+        "error": ""
+      }
+    }
+  },
+  "types": {
+  },
+  "common": {
+    "words": {
+      "actions": {
+        "add": "Add",
+        "create": "Create",
+        "update": "Update",
+        "delete": "Delete"
+      },
+      "no": "No",
+      "yes": "Yes",
+      "day": "Day",
+      "days": "Days",
+      "excluded": "Excluded",
+      "you": "You",
+      "image": "Image",
+      "images": "Images"
+    },
+    "version": "Version",
+    "time": {
+      "min": "min",
+      "mins": "mins"
+    },
+    "date": {
+      "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      },
+      "months": {
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April",
+        "may": "May",
+        "june": "June",
+        "july": "July",
+        "august": "August",
+        "september": "September",
+        "october": "October",
+        "november": "November",
+        "december": "December"
+      }
+    }
+  }
+}

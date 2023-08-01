@@ -1,0 +1,778 @@
+{
+  "pages": {
+    "notFound": {
+      "404": "404",
+      "title": "Non trovato",
+      "links": {
+        "home": "Casa"
+      }
+    },
+    "offline": {
+      "title": "Sei offline",
+      "message": "Sembra che ci sia un problema con la tua connessione. ",
+      "components": {
+        "buttons": {
+          "refresh": {
+            "label": "ricaricare"
+          }
+        }
+      }
+    },
+    "cookbook": {
+      "title": "Libro di cucina"
+    },
+    "register": {
+      "title": "Registrati",
+      "alreadyHaveAccount": "Hai già un account?",
+      "links": {
+        "signIn": "Registrazione"
+      }
+    },
+    "signIn": {
+      "title": "Registrazione",
+      "noAccount": "Non hai un account?",
+      "links": {
+        "forgottenPassword": "Password dimenticata?",
+        "signUp": "Iscrizione"
+      }
+    },
+    "forgotPassword": {
+      "title": "password dimenticata",
+      "links": {
+        "signIn": "Registrazione"
+      }
+    },
+    "home": {
+      "title": "Casa",
+      "welcome": {
+        "greeting": "Benvenuto",
+        "message": "Cosa vorresti cucinare oggi?"
+      },
+      "sections": {
+        "categories": "Categorie",
+        "recommended": "Raccomandazioni",
+        "recentlyAdded": "Aggiunto recentemente",
+        "favourites": "Ricette preferite",
+        "personal": "Le tue ricette"
+      },
+      "components": {
+        "inputs": {
+          "recipeSearch": {
+            "placeholder": "Cerca ricette"
+          }
+        }
+      }
+    },
+    "contactUs": {
+      "title": "Contattaci",
+      "messageSent": "Grazie per il vostro messaggio",
+      "continueCooking": "Continua a cucinare!"
+    },
+    "recipe": {
+      "title": "Ricetta",
+      "description": {
+        "showMore": "Mostra di più",
+        "showLess": "Mostra meno"
+      },
+      "rate": "Valutare",
+      "author": "Autore",
+      "prepTime": "Tempo di preparazione",
+      "cookingTime": "Tempo di cottura",
+      "sections": {
+        "equipment": "Attrezzatura",
+        "ingredients": "ingredienti",
+        "directions": "Indicazioni",
+        "nutrition": "Nutrizione",
+        "reference": "Riferimento",
+        "variants": "Varianti"
+      },
+      "seeFullRecipe": "Vedi la ricetta completa qui"
+    },
+    "recipes": {
+      "title": "Ricette",
+      "noRecipes": "Nessuna ricetta corrispondente ai criteri",
+      "components": {
+        "inputs": {
+          "recipeSearch": {
+            "placeholder": "Cerca ricette"
+          }
+        }
+      }
+    },
+    "favourites": {
+      "title": "Preferiti",
+      "authenticationRequired": "Devi essere registrato per vedere i tuoi preferiti",
+      "noRecipes": "Nessuna ricetta preferita",
+      "components": {
+        "inputs": {
+          "recipeSearch": {
+            "placeholder": "Cerca ricette"
+          }
+        },
+        "buttons": {
+          "signIn": {
+            "label": "Registrazione"
+          }
+        }
+      }
+    },
+    "personal": {
+      "title": "Personale",
+      "authenticationRequired": "Devi essere registrato per vedere le tue ricette personali",
+      "noRecipes": "Nessuna ricetta personale",
+      "components": {
+        "inputs": {
+          "recipeSearch": {
+            "placeholder": "Cerca ricette"
+          }
+        },
+        "buttons": {
+          "signIn": {
+            "label": "Registrazione"
+          }
+        }
+      }
+    },
+    "planner": {
+      "title": "Pianificatore",
+      "authenticationRequired": "Devi essere registrato per vedere il tuo pianificatore",
+      "noRecipes": "Nessuna ricetta in programma per questo giorno.",
+      "components": {
+        "buttons": {
+          "signIn": {
+            "label": "Registrazione"
+          }
+        }
+      }
+    },
+    "ingredientList": {
+      "title": "Lista degli ingredienti",
+      "noPlannedRecipesDay": "Non hai ricette pianificate per questo giorno",
+      "noPlannedRecipesDays": "Non hai ricette in programma in questi giorni"
+    },
+    "author": {
+      "title": "",
+      "biography": {
+        "showMore": "Mostra di più",
+        "showLess": "Mostra meno"
+      },
+      "sections": {
+        "authorRecipes": "Le mie ricette"
+      }
+    },
+    "settings": {
+      "title": "Impostazioni",
+      "options": {
+        "signIn": "Registrazione",
+        "admin": "Amministratore",
+        "account": "Account",
+        "contactUs": "Contattaci",
+        "privacyPolicy": "politica sulla riservatezza",
+        "termsOfService": "Termini di servizio",
+        "logOut": "Disconnettersi"
+      }
+    },
+    "accountSettings": {
+      "title": "Impostazioni dell'account",
+      "options": {
+        "changePassword": "Cambiare la password",
+        "deleteAccount": "Eliminare l'account"
+      }
+    },
+    "changePassword": {
+      "title": "Cambiare la password"
+    },
+    "resetPassword": {
+      "title": "Reimposta la tua password"
+    }
+  },
+  "dialogs": {
+    "deleteRecipe": {
+      "title": "Elimina ricetta",
+      "description": "Sei sicuro di voler eliminare questa ricetta? "
+    },
+    "deleteRecipeImage": {
+      "title": "Elimina immagine",
+      "description": "Sei sicuro di voler rimuovere questa immagine?"
+    },
+    "publishRecipe": {
+      "title": "Pubblica ricetta",
+      "description": "Sei sicuro di voler pubblicare questa ricetta? "
+    }
+  },
+  "forms": {
+    "auth": {
+      "register": {
+        "title": "Creare un account",
+        "inputs": {
+          "email": {
+            "label": "Indirizzo e-mail",
+            "validationMessages": {
+              "empty": "L'e-mail è obbligatoria",
+              "invalid": "E-mail non valido"
+            }
+          },
+          "password": {
+            "label": "Parola d'ordine",
+            "validationMessages": {
+              "empty": "E 'richiesta la password"
+            }
+          },
+          "confirmPassword": {
+            "label": "Conferma password",
+            "validationMessages": {
+              "empty": "Si prega di confermare la password",
+              "notSame": "le passwords non corrispondono"
+            }
+          }
+        },
+        "buttons": {
+          "submit": {
+            "label": "Iscrizione"
+          }
+        }
+      },
+      "signIn": {
+        "inputs": {
+          "email": {
+            "label": "Indirizzo e-mail",
+            "validationMessages": {
+              "empty": "L'e-mail è obbligatoria",
+              "invalid": "E-mail non valido"
+            }
+          },
+          "password": {
+            "label": "Parola d'ordine",
+            "validationMessages": {
+              "empty": "E 'richiesta la password"
+            }
+          }
+        },
+        "buttons": {
+          "submit": {
+            "label": "Registrazione"
+          }
+        }
+      },
+      "forgotPassword": {
+        "inputs": {
+          "email": {
+            "label": "Indirizzo e-mail",
+            "validationMessages": {
+              "empty": "L'e-mail è obbligatoria"
+            }
+          }
+        },
+        "buttons": {
+          "submit": {
+            "label": "Resetta la password"
+          }
+        }
+      },
+      "changePassword": {
+        "title": "Cambiare la password",
+        "inputs": {
+          "currentPassword": {
+            "label": "password attuale",
+            "validationMessages": {
+              "empty": "È richiesta la password corrente"
+            }
+          },
+          "newPassword": {
+            "label": "nuova password",
+            "validationMessages": {
+              "empty": "È richiesta una nuova password",
+              "sameAsCurrent": "La nuova password deve essere diversa dalla password corrente."
+            }
+          },
+          "confirmPassword": {
+            "label": "Conferma password",
+            "validationMessages": {
+              "empty": "Si prega di confermare la password",
+              "notSame": "le passwords non corrispondono"
+            }
+          }
+        },
+        "buttons": {
+          "submit": {
+            "label": "Cambiare la password"
+          }
+        }
+      },
+      "resetPassword": {
+        "title": "Crea nuova password",
+        "inputs": {
+          "newPassword": {
+            "label": "nuova password",
+            "validationMessages": {
+              "empty": "È richiesta una nuova password"
+            }
+          },
+          "confirmPassword": {
+            "label": "Conferma password",
+            "validationMessages": {
+              "empty": "Si prega di confermare la password",
+              "notSame": "le passwords non corrispondono"
+            }
+          }
+        },
+        "buttons": {
+          "submit": {
+            "label": "Resetta la password"
+          }
+        }
+      }
+    },
+    "accounts": {
+      "delete": {
+        "title": "Sei sicuro di voler eliminare il tuo account?",
+        "description": "Questa azione è irreversibile. ",
+        "buttons": {
+          "submit": {
+            "label": "Confermare"
+          },
+          "cancel": {
+            "label": "NO"
+          }
+        }
+      }
+    },
+    "contactUs": {
+      "inputs": {
+        "email": {
+          "label": "Indirizzo e-mail",
+          "validationMessages": {
+            "empty": "L'e-mail è obbligatoria",
+            "invalid": "E-mail non valido"
+          }
+        },
+        "message": {
+          "label": "Messaggio",
+          "validationMessages": {
+            "empty": "Il messaggio è obbligatorio"
+          }
+        }
+      },
+      "buttons": {
+        "submit": {
+          "label": "Inviare"
+        }
+      }
+    },
+    "recipe": {
+      "copiedFrom": "Copiato da",
+      "inputs": {
+        "isVariant": {
+          "label": "È una variante di"
+        }
+      }
+    }
+  },
+  "components": {
+    "bottomNavBar": {
+      "discover": "Scoprire"
+    },
+    "section": {
+      "seeAll": "Vedi tutto"
+    },
+    "planRecipeDialog": {
+      "title": "Pianificatore",
+      "selectDaysMessage": "Seleziona i giorni in cui desideri aggiungere questa ricetta",
+      "addToPlanner": "Aggiungi al pianificatore"
+    },
+    "ingredientListDateDialog": {
+      "title": "Seleziona Giorni",
+      "update": "Aggiornamento"
+    },
+    "plannedRecipeDialog": {
+      "update": "Aggiornamento",
+      "removeTitle": "Rimuovi la ricetta dal programmato",
+      "removeWarning": "Sei sicuro di voler rimuovere questa ricetta dal tuo pianificatore?"
+    },
+    "recipeFilters": {
+      "title": "Fitler",
+      "filters": {
+        "type": "Tipi",
+        "difficulty": "Difficoltà",
+        "time": "Volte",
+        "tag": "Tag",
+        "ingredient": "ingredienti",
+        "rating": "Giudizi"
+      },
+      "inputs": {
+        "addIngredient": {
+          "label": "Aggiungi ingrediente"
+        }
+      },
+      "buttons": {
+        "submit": {
+          "label": "Applica filtri"
+        }
+      }
+    },
+    "recipeAttributeWidget": {
+      "alcohol": {
+        "text": "Contiene alcol"
+      }
+    }
+  },
+  "requests": {
+    "auth": {
+      "register": {
+        "success": "Account creato.",
+        "emailAlreadyUsed": "L'e-mail è già utilizzata",
+        "error": "Impossibile registrare l'account. "
+      },
+      "signIn": {
+        "success": "Accesso effettuato con successo.",
+        "invalid": "Login non valido. ",
+        "error": "Impossibile accedere. Riprova più tardi."
+      },
+      "forgottenPassword": {
+        "success": "Un link di ripristino è stato inviato al tuo indirizzo email.",
+        "error": "Impossibile inviare l'e-mail di recupero. "
+      },
+      "changePassword": {
+        "success": "La tua password è stata modificata.",
+        "invalid": "Controlla le tue credenziali.",
+        "error": "Impossibile modificare la password. "
+      },
+      "resetPassword": {
+        "success": "La tua password è stata modificata.",
+        "error": "Impossibile modificare la password. "
+      },
+      "logout": {
+        "success": "Sei stato disconnesso",
+        "error": ""
+      }
+    },
+    "accounts": {
+      "delete": {
+        "success": "Il tuo account è stato eliminato.",
+        "error": ""
+      }
+    },
+    "support": {
+      "contactUs": {
+        "success": "Messaggio inviato",
+        "error": "Impossibile inviare il messaggio. "
+      },
+      "resolve": {
+        "success": "Il ticket di supporto è stato risolto",
+        "error": "Impossibile risolvere il ticket di supporto"
+      }
+    },
+    "favourites": {
+      "favourite": {
+        "success": "Ricetta preferita.",
+        "error": "Impossibile aggiungere la ricetta ai preferiti. "
+      },
+      "unfavourite": {
+        "success": "Ricetta non preferita.",
+        "error": "Impossibile eliminare la ricetta dai preferiti. "
+      }
+    },
+    "rating": {
+      "rate": {
+        "success": "Ricetta valutata.",
+        "error": "Impossibile valutare la ricetta. "
+      }
+    },
+    "planner": {
+      "planRecipe": {
+        "success": "Ricetta aggiunta al pianificatore.",
+        "error": "Impossibile aggiungere la ricetta al pianificatore. "
+      },
+      "updatePlannedRecipe": {
+        "success": "Agenda aggiornata.",
+        "error": "Impossibile aggiornamento pianificato. "
+      },
+      "removePlannedRecipe": {
+        "success": "Ricetta rimossa dal pianificatore.",
+        "error": "Impossibile rimuovere la ricetta dal pianificatore. "
+      }
+    },
+    "recipes": {
+      "create": {
+        "success": "La ricetta è stata creata.",
+        "error": "Impossibile creare la ricetta. "
+      },
+      "update": {
+        "success": "La ricetta è stata aggiornata.",
+        "error": "Impossibile aggiornare la ricetta. "
+      },
+      "delete": {
+        "success": "La ricetta è stata eliminata.",
+        "error": "Impossibile eliminare la ricetta. "
+      },
+      "publish": {
+        "success": "La ricetta è stata pubblicata.",
+        "error": "Impossibile pubblicare la ricetta. "
+      }
+    }
+  },
+  "types": {
+    "log": {
+      "fields": {
+        "message": {
+          "name": "Messaggio"
+        }
+      }
+    },
+    "supportTicket": {
+      "fields": {
+        "from": {
+          "name": "Da"
+        },
+        "message": {
+          "name": "Messaggio"
+        }
+      },
+      "actions": {
+        "resolve": "Risolvere"
+      }
+    },
+    "tag": {
+      "name": "Etichetta",
+      "pluralName": "Tag"
+    },
+    "author": {
+      "name": "Autore",
+      "pluralName": "Autori"
+    },
+    "ingredient": {
+      "name": "Ingrediente",
+      "pluralName": "ingredienti"
+    },
+    "equipment": {
+      "name": "Pezzo di equipaggiamento",
+      "pluralName": "Attrezzatura"
+    },
+    "recipe": {
+      "name": "Ricetta",
+      "pluralName": "Ricette",
+      "actions": {
+        "create": "Creare",
+        "update": "Aggiornamento",
+        "delete": "Eliminare",
+        "publish": "Pubblicare"
+      },
+      "times": {
+        "slow": "Lento",
+        "medium": "medio",
+        "fast": "Veloce"
+      },
+      "types": {
+        "breakfast": {
+          "name": "Colazione",
+          "displayName": "Colazione"
+        },
+        "lunch": {
+          "name": "Pranzo",
+          "displayName": "Pranzo"
+        },
+        "dinner": {
+          "name": "Cena",
+          "displayName": "Cena"
+        },
+        "dessert": {
+          "name": "Dolce",
+          "displayName": "Dolci"
+        },
+        "snack": {
+          "name": "Merenda",
+          "displayName": "Spuntini"
+        },
+        "drink": {
+          "name": "Bere",
+          "displayName": "Bevande"
+        }
+      },
+      "difficulty": {
+        "veryEasy": "Molto facile",
+        "easy": "Facile",
+        "average": "Media",
+        "hard": "Difficile",
+        "veryHard": "Molto difficile"
+      },
+      "fields": {
+        "name": {
+          "name": "Nome",
+          "validation": {
+            "required": "Si prega di fornire un nome per questa ricetta."
+          }
+        },
+        "description": {
+          "name": "Descrizione",
+          "validation": {
+            "required": "Si prega di fornire una descrizione."
+          }
+        },
+        "type": {
+          "name": "Tipo",
+          "validation": {
+            "required": "Si prega di selezionare un tipo"
+          }
+        },
+        "difficulty": {
+          "name": "Difficoltà",
+          "validation": {
+            "required": "Seleziona una difficoltà"
+          }
+        },
+        "prepTime": {
+          "name": "Tempo di preparazione",
+          "validation": {
+            "required": "Si prega di impostare il tempo di preparazione di questa ricetta"
+          }
+        },
+        "cookTime": {
+          "name": "Tempo di cottura",
+          "validation": {
+            "required": "Si prega di impostare il tempo di cottura necessario per questa ricetta"
+          }
+        },
+        "totalTime": {
+          "name": "Tempo totale",
+          "validation": {
+            "required": "Imposta il tempo totale impiegato da questa ricetta"
+          }
+        },
+        "servings": {
+          "name": "Porzioni",
+          "validation": {
+            "required": "Il numero di porzioni deve essere fornito"
+          }
+        },
+        "steps": {
+          "name": "Passi",
+          "singularName": "Fare un passo",
+          "fields": {
+            "name": {
+              "name": "Nome"
+            }
+          },
+          "instructions": {
+            "name": "Istruzioni",
+            "singularName": "Istruzione",
+            "fields": {
+              "instruction": {
+                "name": "Istruzione"
+              }
+            }
+          }
+        },
+        "ingredients": {
+          "fields": {
+            "amount": {
+              "name": "Quantità"
+            },
+            "name": {
+              "name": "Nome"
+            },
+            "unitOfMeasurement": {
+              "name": "Tipo"
+            },
+            "optional": {
+              "name": "Opzionale"
+            }
+          }
+        },
+        "equipment": {
+          "fields": {
+            "amount": {
+              "name": "Quantità"
+            },
+            "name": {
+              "name": "Nome"
+            },
+            "dependsOnServing": {
+              "name": "Dipende dal servizio"
+            }
+          }
+        },
+        "nutrition": {
+          "name": "Nutrizione",
+          "calories": {
+            "name": "Calorie"
+          },
+          "sugar": {
+            "name": "Zucchero"
+          },
+          "fat": {
+            "name": "Grasso"
+          },
+          "saturatedFat": {
+            "name": "Grassi saturi"
+          },
+          "sodium": {
+            "name": "Sodio"
+          },
+          "protein": {
+            "name": "Carboidrati"
+          },
+          "carbohydrates": {
+            "name": "Proteina"
+          },
+          "fiber": {
+            "name": "Fibra"
+          }
+        },
+        "containsAlcohol": {
+          "name": "Contiene alcol"
+        },
+        "referenceUrl": {
+          "name": "URL di riferimento"
+        }
+      }
+    }
+  },
+  "common": {
+    "words": {
+      "actions": {
+        "add": "Aggiungere",
+        "create": "Creare",
+        "update": "Aggiornamento",
+        "delete": "Eliminare"
+      },
+      "no": "NO",
+      "yes": "SÌ",
+      "day": "Giorno",
+      "days": "Giorni",
+      "excluded": "Escluso",
+      "you": "Voi",
+      "image": "Immagine",
+      "images": "immagini"
+    },
+    "version": "Versione",
+    "time": {
+      "min": "min",
+      "mins": "min"
+    },
+    "date": {
+      "days": {
+        "monday": "Lunedi",
+        "tuesday": "Martedì",
+        "wednesday": "Mercoledì",
+        "thursday": "Giovedì",
+        "friday": "Venerdì",
+        "saturday": "Sabato",
+        "sunday": "Domenica"
+      },
+      "months": {
+        "january": "Gennaio",
+        "february": "Febbraio",
+        "march": "Marzo",
+        "april": "aprile",
+        "may": "Maggio",
+        "june": "Giugno",
+        "july": "Luglio",
+        "august": "agosto",
+        "september": "settembre",
+        "october": "ottobre",
+        "november": "novembre",
+        "december": "Dicembre"
+      }
+    }
+  }
+}
